@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    width: 1132px;
+    height: 174px;
+    justify-content: space-between;
+  }
+  
+  .intro {
+    width: 387px;
+    height: 174px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .line {
+    width: 1px;
+    border: 1px;
+    rotate: -90 deg;
+    background-color: rgba(106, 106, 106, 1);
+    border: 1px solid rgba(106, 106, 106, 1);
+  }
+  
+  .criminal {
+    width: 475px;
+    height: 155px;
+   
+  }
+  
+  .criminal>h3 {
+    width: 249px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .criminal>p {
+    width: 475px;
+    height: 87px;
+    opacity: 0.3;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }

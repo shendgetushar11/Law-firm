@@ -1,0 +1,68 @@
+.card {
+ 
+    height: 377px;
+    border-radius: 14px;
+    border: 1.399999976158142px;
+    background: var(--color-black);
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .card.clicked {
+      background-color: green;
+    }
+  
+  .cardImg {
+    width: 101px;
+    height: 101px;
+    top: 1643px;
+    left: 170px;
+    border-radius: 50px;
+    margin-top: 28px;
+    margin-left: 24px;
+    border: 1.4px solid rgba(25, 25, 25, 0.1);
+    background-color: var(--color-black);
+  }
+  
+  .cardTitle {
+    margin-top: 28px;
+    margin-left: 23px;
+    width: 215px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .cardContent {
+    margin-top: 26px;
+    margin-left: 23px;
+    width: 293px;
+    height: 69px;
+    top: 1822px;
+    left: 169px;
+    opacity: 0.3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .cardBtn{
+      cursor: pointer;
+  margin-top: 22px;
+  margin-bottom: 36px;
+  margin-left: 23px;
+  width: 121px;
+  height: 43px;
+  background-color: var(--color-primary);
+  border-radius: 23.5px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  
+  
+  }

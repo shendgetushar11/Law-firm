@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teamText {
+  display: flex;
+  font-size: 54px;
+  font-weight: 600;
+  margin: 97px;
+}
+
+.teamCard {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  padding-left: 21px;
+  gap: 44px;
+  border-radius: 14px;
+  height: 109px;
+  width: 344px;
+}
+
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+}
+.innerDiv > h2 {
+  font-weight: 600;
+}
+
+.innerDiv > p {
+  opacity: 0.3;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.selectedCard {
+  background-color: var(--color-primary);
+  color: var(--color-black);
+}

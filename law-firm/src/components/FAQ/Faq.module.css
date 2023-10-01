@@ -1,0 +1,36 @@
+.contaner {
+    display: flex;
+  }
+  
+.text {
+font-size: 54px;
+font-weight: 600;
+margin-top: 197px;
+margin-bottom: 14px;
+}
+  
+.innerContainer {
+display: flex;
+justify-content: space-between;
+}
+  
+.innerText {
+
+font-size: 18px;
+font-weight: 500;
+opacity: 0.3;
+}
+
+.accordion{
+    width: 557px;
+
+    color: var(--color-white);
+}
+  
+.accordionMain{
+    
+    color: var(--color-white);
+    border-bottom: 2px solid
+    rgba(217, 217, 217, 0.05) ;
+
+}
